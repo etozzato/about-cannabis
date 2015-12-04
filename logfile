@@ -1,0 +1,12 @@
+LOG:  database system was shut down at 2015-12-03 02:47:57 PST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  database "about_cannabis_test" already exists
+STATEMENT:  CREATE DATABASE "about_cannabis_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "about_cannabis_test" already exists
+STATEMENT:  CREATE DATABASE "about_cannabis_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "about_cannabis_test" already exists
+STATEMENT:  CREATE DATABASE "about_cannabis_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
