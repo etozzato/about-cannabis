@@ -6,14 +6,14 @@ To start your Phoenix app:
   2. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   3. Start Phoenix endpoint with `mix phoenix.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+To start your EmberJS app:
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+  1. Install npm dependencies with `npm install`
+  2. Install bower dependencies with with `bower install`
+  3. Start EmberJS and proxy to the API with `ember s --proxy  http://localhost:4000`
 
-## Learn more
+![Visual Instructions](http://i.imgur.com/9E47Hxi.png)
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: http://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+Navigate to localhost:4200;
+
+![Up & Running](http://i.imgur.com/GmQYtKn.png)
